@@ -39,7 +39,7 @@ const Calculator = () =>
     return(
         <div className={styles.container}>
             <h1>React Calculator</h1>
-            <input value={input}/>
+            <input type="text" value={input}/>
             {expression && <div className={styles.result}>{expression}</div>}
             <div className={styles.calculator}>
                 <button className={styles.item} onClick={()=>handleClick(7)}>7</button>
